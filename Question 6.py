@@ -9,8 +9,5 @@
 if __name__ == '__main__':
     n = int(input())
     
-    newstr = ""
     for i in range(1,n+1):
-        type = str(i)
-        newstr += type
-    print(newstr)
+        print(i,end="")
